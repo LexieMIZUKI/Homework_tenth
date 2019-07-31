@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_time"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:textSize="20sp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#FFFFFF"-->
+        <!--/>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="#000000"-->
+        <!--/>-->
+
+    <DatePicker
+        android:id="@+id/dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner">
+    </DatePicker>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="#000000"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/done"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:text="Done"-->
+        <!--android:textSize="15sp"-->
+        <!--android:background="#ffffff"/>-->
+
+</LinearLayout>

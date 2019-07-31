@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="请选择一下性别吧"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/rb_unknown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别未知"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/rb_guess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你猜"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+    </RadioGroup>
+
+</LinearLayout>
